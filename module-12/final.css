@@ -1,0 +1,184 @@
+html {
+    box-sizing: border-box;
+    caret-color: rgba(0,0,0,0);
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0 auto;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+}
+
+header {
+    background-color: #020c0d;
+    color: #bfbfbf;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #3b403c;
+    border-bottom: 15px solid #8c8c87;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.navbar a:hover {
+    background-color: #93aebf;
+    color: #020c0d;
+}
+
+h1 {
+    font-weight: 400;
+    text-align: center;
+}
+
+.hobbies {
+    min-height: 250px;
+    margin-top: 5%;
+}
+
+.experience {
+    min-height: 250px;
+    margin-top: 5%;
+}
+
+.contact-container {
+    margin-top: 5%;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.full-width {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    justify-items: center;
+}
+
+.grid-item {
+    padding: 20px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .5);
+    transition: 0.3s;
+    width: 95%;
+    border-radius: 10px;
+}
+
+.card img {
+    display: block;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-title {
+    text-align: center;
+    font-size: 2em;
+    color: #3b403c;
+    font-weight: 400;
+}
+
+.card-content {
+    padding: 2px 16px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 1);
+}
+
+.form {
+    display: flex;
+    flex-flow: row wrap;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.form-field {
+    padding: 20px;
+}
+
+.btn {
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding: 15px 32px;
+    color: #020c0d;
+}
+
+.input {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #bfbfbf;
+    border-radius: 4px;
+    box-sizing: border-box;
+    caret-color: rgba(0,0,0,1);
+}
+
+.btn-send {
+    background-color: #3b403c;
+    color: #bfbfbf;
+    max-width: 200px;
+}
+
+.btn-send:hover {
+    background-color: #8c8c87;
+    color: #3b403c;
+}
+
+footer {
+    background-color: #020c0d;
+    position: absolute;
+    width: 100%;
+}
+
+#back-to-top {
+    display:block;
+    text-align:center;
+    background-color: #3b403c;
+}
+
+footer p {
+    color: #bfbfbf;
+    font-weight: 400;
+    float: right;
+    padding-right: 10px;
+    font-style: italic;
+    font-size: .75em;
+}
+
+footer a {
+    text-decoration: none;
+    color: #bfbfbf;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>CSD 340 Web Development with HTML and CSS</title>
+
+    <link rel="stylesheet" type="text/css" href="final.css">
+
+    <!-- Google fonts for Oswald -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header id="home">
+        <h1>Andrew White</h1>
+        <h2>Landing Page</h2>
+    </header>
+
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#experience">Experience</a>
+    </nav>
+
+    <div class="container">
+        <div class="hobbies" id="hobbies">
+            <h1>Hobbies</h1>
+            
+            <div class="grid">
+                <div class="card">
+                    <div class="card-title">
+                        Video Games
+                    </div>
+                    <img src="pics/gaming.jfif" alt="">
+                    <div class="card-content">
+                        I grew up playing video games and I have always been competitive playing against other people. 
+                        For me, gaming is a great outlet to keep your mental and physical reflexes up to speed. It is also how I de-stress 
+                        after a long week or if I need to get some "me" time to recharge as an introvert.
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-title">
+                        Mining Cryptocurrency
+                    </div>
+                    <img src="pics/crypto.jpg" alt="">
+                    <div class="card-content">
+                        I started mining Cryptocurrency in early 2020, just before Bitcoin's price shot up to record levels.
+                        Cryptocurrency is very interesting to me and I do believe it is the way of the future. It is very exciting
+                        how volatile it is and in my opinion is a good alternative way to invest in addition to other methods.
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-title">
+                        Marksmanship
+                    </div>
+                    <img src="pics/marksmanship.webp" alt="">
+                    <div class="card-content">
+                        Growing up both of my brothers were on our High School Marksmanship team and did well. So when I started High School the Marksmanship
+                        coach wanted me to be on the team. I ended up loving it and ended up setting several city records.
+                        After about 7 years in the National Guard, I found out that there was a State Marksmanship competition, so the first
+                        year I competed I ended up winning 2nd place overall. The state ended up asking me to be on their Marksmanship team and
+                        I have since won several trophies and competed both Nationally and Internationally.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">  
+        <div class="experience" id="experience">
+            <h1>Experience</h1>
+            
+            <div class="grid">
+                <div class="card">
+                    <div class="card-title">
+                        Software Developer
+                    </div>
+                    <div class="card-content">
+                        I have been working as an IVR Developer since December 2016. IVR stands for interactive voice response, which is the automated phone lines that
+                        most companies use to route call traffic to the right destination. I primarily work with Java, but also work with SQL databases and sometimes
+                        Javascript. I have been involved with re-writing two different IVR's as a whole.
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-title">
+                        Military
+                    </div>
+                    <div class="card-content">
+                        I joined the Army National Guard in May 2007. I originally joined as a FireFighter. Due to lack of career progression potential, I re-classed
+                        to an IT Specialist, which is much more fitting for my civilian career. I am currently a Sergeant First Class and am in charge of ensuring
+                        that the training site that I drill at is ran safely and any units that are training that weekend have everything they need.
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-title">
+                        Management
+                    </div>
+                    <div class="card-content">
+                        Prior to being hired as a Software Developer, I was a Shift Manager for Blockbuster. As a manager, I ensured that all tasks were completed
+                        by my employees as needed so that the store was presentable and that we provided the best customer service as possible.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br><br>
+    <div class="container">
+        <div class="contact-container">
+            <div class="card full-width">
+                <div class="card-title">
+                    Contact Me
+                </div>
+
+                <div class="card-content">
+                    <div class="form">
+                        <div class="form-field">
+                            <label for="txtFirstName">First name:</label>
+                            <input type="text" id="txtFirstName" class="input" name="txtFirstName" />
+                        </div>
+                        <div class="form-field">
+                            <label for="txtLastName">Last name:</label>
+                            <input type="text" id="txtLastName" class="input" name="txtLastName" />
+                        </div>
+                        <div class="form-field">
+                            <label for="txtEmail">Email:</label>
+                            <input type="text" id="txtEmail" class="input" name="txtEmail" />
+                        </div>
+                    </div>
+                    <div class="form-field">
+                        <button type="submit" class="btn btn-send">Send Message</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<footer>
+    <a href="#home" id="back-to-top">Back to Top</a>
+    <p>        
+        &copy; <script>document.write(new Date().getFullYear())</script> - 
+        <a href="https://www.bellevue.edu/" target="_blank">Bellevue University</a>
+    </p>
+</footer>
+</html>
